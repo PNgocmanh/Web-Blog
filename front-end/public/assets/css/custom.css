@@ -1,0 +1,241 @@
+*{
+    
+}
+
+.table-responsive.order {
+    max-height: 241px;
+    overflow: auto;
+}
+
+.section.section-padding.checkout {
+    background-color: white;
+}
+
+.section.section-padding.dashbroad {
+    background-color: white;
+}
+
+.cart-wishlist-tablediv {
+    max-height: 500px;
+    overflow: auto;
+}
+
+tbody {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+table.cart-wishlist-table.table {
+    max-height: 500px !important;
+}
+
+tbody {
+    max-height: 500px !important;
+    overflow: auto;
+}
+
+.section.section-padding.wishlist {
+    background-color: white;
+}
+
+.section.section-padding.login {
+    background-color: white;
+}
+
+ul.comment-list {
+    max-height: 500px;
+    overflow: auto;
+}
+
+ul.product-review-list {
+    max-height: 500px;
+    overflow: auto;
+}
+
+.row.learts-mt-60 {
+    margin-bottom: 60px;
+}
+
+.section.section-padding.contac {
+    background-color: white;
+}
+
+.section.section-padding.cart {
+    background-color: white;
+}
+
+div#moder {
+    height: 750px;
+}
+
+.section.section-padding.blog {
+    background-color: white;
+}
+
+span.product-price.old {
+    text-decoration: line-through;
+}
+
+span.product-price.new {
+    /* margin-left: 10px; */
+    color: #f8796c;
+}
+
+span.product-price.old,span.product-price.new {
+    display: inline;
+    margin-right: 10px;
+}
+
+div#product-filter {
+    height: 500px;
+}
+
+.section.section-padding.productcategory {
+    background-color: white;
+}
+
+.product-description p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 7;
+    /* height: 75px; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.product-sizes a, .product-colors a {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    margin-right: 15px !important;
+    color: #ababab;
+    border: none;
+    width: unset;
+}
+
+.product-sizes input, .product-colors input {
+    opacity: 0;
+    display: none;
+}
+
+.product-sizes a:hover, .product-colors a:hover {
+    color: #333;
+}
+
+a.activesp {
+    color: #f8796c;
+    text-shadow:  0 0 0.2em #f8796c, 0 0 0.2em #f8796c;
+}
+
+div#imgsanpham {
+    height: 760px;
+}
+
+.loadding {
+    margin: auto;
+}
+
+.section.section-fluid.section-padding.bg-white.border-top-dashed.border-bottom-dashed {
+    max-height: 500px;
+}
+
+.blog .content .desc p:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 4;
+    /* height: 75px; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.section.section-padding.border-bottom {
+    background-color: white;
+}
+
+.footer3-bottom.section.section-fluid.section-padding.pt-0 {
+    background-color: #F4EDE7;
+}
+
+.section.section-padding.pt-0 {
+    background-color: white;
+}
+
+i.ti-angle-right, i.ti-angle-left {
+    color: black;
+}
+
+
+
+.site-main-menu>ul>li.has-children.home>a::before {
+    content: "";
+}
+.site-main-menu>ul>li.has-children.page>a::before {
+    content: "";
+}
+.slick-slide.slick-cloned {
+    margin: 40px;
+}
+
+.slick-track {
+    display: flex;
+    justify-content: center;
+    /* background-color: DodgerBlue; */
+}
+
+.container-fluid.home3-slider.swiper-wrapper {
+    width: 1733px;
+}
+
+div.starss {
+    /* width: 270px; */
+    display: inline-block;
+  }
+   
+  input.stars { display: none; }
+   
+  label.stars {
+    float: right;
+    /* padding-left: 10px; */
+    font-size: 20px;
+    color: #444;
+    transition: all .2s;
+    font-family: "Font Awesome 5 Pro";
+    /* margin-left: 21px; */
+  }
+   
+  input.stars:checked ~ label.stars:before {
+    content: '\f005';
+    color: #FD4;
+    transition: all .25s;
+  }
+   
+  input.stars-5:checked ~ label.stars:before {
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+  }
+   
+  input.stars-1:checked ~ label.stars:before { color: #F62; }
+   
+  label.stars:hover { transform: rotate(-15deg) scale(1.3); }
+   
+  label.stars:before {
+    /* content: '\f006'; */
+    /* font-family: "Font Awesome" !important; */
+    content: "";
+  }
+ 
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px){
+    .product-info .product-buttons {
+        display:none;
+    }
+    div#imgsanpham {
+      height:auto
+    }
+}
+@media only screen and (max-width: 479px){
+  .product-buttons .btn-icon {
+      display:none
+  }
+}
